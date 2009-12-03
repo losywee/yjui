@@ -63,8 +63,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 2,4,0,112
- PRODUCTVERSION 2,4,0,112
+ FILEVERSION 2,4,0,115
+ PRODUCTVERSION 2,4,0,115
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -80,12 +80,12 @@ BEGIN
         BLOCK "080403a8"
         BEGIN
             VALUE "FileDescription", "YJUI.dll"
-            VALUE "FileVersion", "2.4.0.112"
+            VALUE "FileVersion", "2.4.0.115"
             VALUE "InternalName", "YJUI.dll"
             VALUE "LegalCopyright", "Copyright (C) 2008 by CYJ."
             VALUE "OriginalFilename", "YJUI.dll"
             VALUE "ProductName", "YJUI.dll"
-            VALUE "ProductVersion", "2.4.0.112"
+            VALUE "ProductVersion", "2.4.0.115"
         END
     END
     BLOCK "VarFileInfo"
