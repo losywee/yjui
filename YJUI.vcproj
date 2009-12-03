@@ -280,6 +280,15 @@
 				RelativePath=".\YJButton.cpp">
 			</File>
 			<File
+				RelativePath=".\YJCalendarCtrl.cpp">
+			</File>
+			<File
+				RelativePath=".\YJCalendarCtrlHeader.cpp">
+			</File>
+			<File
+				RelativePath=".\YJDate.cpp">
+			</File>
+			<File
 				RelativePath=".\YJEdit.cpp">
 			</File>
 			<File
@@ -337,6 +346,15 @@
 			</File>
 			<File
 				RelativePath=".\YJButton.h">
+			</File>
+			<File
+				RelativePath=".\YJCalendarCtrl.h">
+			</File>
+			<File
+				RelativePath=".\YJCalendarCtrlHeader.h">
+			</File>
+			<File
+				RelativePath=".\YJDate.h">
 			</File>
 			<File
 				RelativePath=".\YJEdit.h">
