@@ -26,5 +26,6 @@ private:
 	int m_nDayOfWeek;
 
 	//Private Methods
-	void	AddMonth(int nMonth);
+	void	AddMonths(int nMonths);
+	void	AddDays( int nDays);
 };
