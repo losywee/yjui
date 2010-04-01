@@ -25,12 +25,21 @@ CYJDate::~CYJDate(void)
 //////////////////////////////////////////////////////////////////////////
 // Private Methods
 //////////////////////////////////////////////////////////////////////////
-void CYJDate::AddMonth(int nMonth)
+void CYJDate::AddMonths(int nMonths)
 {
-	if ( nMonth > 0)
+	if ( nMonths > 0)
 	{
-		m_nMonth += nMonth;
+		m_nMonth += nMonths;
 		m_nMonth = m_nMonth % 12;
+	}
+}
+
+void CYJDate::AddDays(int nDays)
+{
+	int iDays = GetNumberOfDays();
+	m_nDay += nDays;
+	if ( m_nDay > iDays )
+	{
 	}
 }
 
@@ -57,7 +66,9 @@ int CYJDate::GetNumberOfDays()
 CYJDate& CYJDate::AddDate(int nDay, int nMonth /* = 0 */, int nYear /* = 0 */)
 {
 	m_nYear += nYear;
-	AddMonth(nMonth);
+	AddMonths(nMonth);
+
+	return *this;
 }
 
 //////////////////////////////////////////////////////////////////////////
